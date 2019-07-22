@@ -23,7 +23,11 @@ const euqal = document.querySelector('.equal');
 const calc0 = document.querySelector('.calc0');
 
 
+let divideEvent;
 
+divideEvent = addEventListener("click", () => {
+    
+})
 
 
 
