@@ -1,7 +1,7 @@
 // Vars
 
 // main var of input field
-const number = document.querySelector('#numbers');
+const textArea = document.getElementById('number');
 
 // vars of buttons
 const divide = document.querySelector('.divide');
@@ -23,11 +23,23 @@ const euqal = document.querySelector('.equal');
 const calc0 = document.querySelector('.calc0');
 
 
-let divideEvent;
 
-divideEvent = addEventListener("click", () => {
-    
+divide.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
 })
+plus.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+
 
 
 
