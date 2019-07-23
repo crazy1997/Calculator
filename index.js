@@ -15,7 +15,6 @@ const C = document.querySelector('.C');
 const calc4 = document.querySelector('.calc4');
 const calc5 = document.querySelector('.calc5');
 const calc6 = document.querySelector('.calc6');
-const CE = document.querySelector('.CE');
 const calc1 = document.querySelector('.calc1');
 const calc2 = document.querySelector('.calc2');
 const calc3 = document.querySelector('.calc3');
@@ -39,13 +38,113 @@ plus.addEventListener("click", function(){
     console.log(e);
 })
 
+minus.addEventListener("click", function(){
+    var e = event.target.innerHTML;
 
+    textArea.innerHTML +=e;
 
+    console.log(e);
+})
 
+multiply.addEventListener("click", function(){
+    var e = event.target.innerHTML;
 
-/*   logic of calculation  */
+    textArea.innerHTML +=e;
 
-function divideNumb () {
+    console.log(e);
+})
 
+calc7.addEventListener("click", function(){
+    var e = event.target.innerHTML;
 
-}
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc8.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc9.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+C.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML = '0'
+
+    console.log(e);
+})
+
+calc4.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc5.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc6.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc1.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc2.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+calc3.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})
+
+euqal.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML = eval(textArea.innerHTML);
+
+    console.log(e);
+})
+calc0.addEventListener("click", function(){
+    var e = event.target.innerHTML;
+
+    textArea.innerHTML +=e;
+
+    console.log(e);
+})

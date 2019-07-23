@@ -1,8 +1,15 @@
+
+
 body{
     margin: 0px;
     padding: 0px;
     background-image: url(math.jpg);
     position: inherit;
+}
+
+textarea#number {
+    font-size: 25px;
+    border: 2px solid #000;
 }
 
 div.wrapper {
